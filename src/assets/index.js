@@ -25,10 +25,13 @@ import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
+import mern from "./company/mern.png";
+import net from "./company/net.png";
+import react from "./company/react.png";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import silvert from "./silvert.jpg";
+import facility from "./facility.jpg";
+import brts from "./brts.jpg";
 
 export {
   logo,
@@ -56,7 +59,8 @@ export {
   shopify,
   starbucks,
   tesla,
-  carrent,
-  jobit,
-  tripguide,
+  brts,
+  silvert,
+  facility,
+  mern,net,react
 };

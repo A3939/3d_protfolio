@@ -19,9 +19,12 @@ import {
   starbucks,
   tesla,
   shopify,
-  carrent,
-  jobit,
-  tripguide,
+  mern,
+  react,
+  net,
+  brts,
+  silvert,
+  facility,
   threejs,
 } from "../assets";
 
@@ -54,7 +57,7 @@ const services = [
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "Enthusiastic  Gamer",
     icon: creator,
   },
 ];
@@ -116,55 +119,56 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
+    title: "MERN + React Native SDE",
+    company_name: "The One Technologies",
+    icon: mern,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "Jan 2023 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
+      "Collaborating with cross-functional teams including designers and other developers to create high-quality products.",
+      "Building and enhancing mobile applications with React Native and associated technologies.",
+      "Implementing adaptive designs and ensuring compatibility across various mobile platforms.",
       "Participating in code reviews and providing constructive feedback to other developers.",
+      "Engaging in collaborative code reviews and offering valuable feedback to fellow developers.",
     ],
   },
+
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
+    title: "React Native",
+    company_name: "Aldairtiyna",
+    icon: react,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "Aug 2022 - Jan 2023",
+    points: [
+      "Implementing adaptive designs and ensuring compatibility across various mobile platforms.",
+      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Active participation in code reviews, providing insightful feedback, and maintaining code quality standards.",
+    ],
+  },
+  {
+    title: "React JS",
+    company_name: "Aldairtiyna",
+    icon: react,
+    iconBg: "#E6DEDD",
+    date: "Jan 2022 - Aug 2022",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+      "Working closely with diverse teams, including designers and product managers, to deliver top-notch mobile solutions.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
       "Participating in code reviews and providing constructive feedback to other developers.",
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
+    title: ".Net Developer",
+    company_name: "GEC, Patan",
+    icon: net,
     iconBg: "#383E56",
     date: "Jan 2022 - Jan 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
+      "Creating robust web applications using the .NET framework and associated technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Ensuring scalability and reliability by implementing best practices in .NET development.",
+      "Active participation in code reviews, providing insightful feedback, and maintaining code quality standards.",
     ],
   },
 ];
@@ -172,35 +176,35 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+      "I thought it was impossible to make a App as beautiful as our product, but Rick proved me wrong.",
+    name: "Kuldip Panchal",
+    designation: "SDE 2",
+    company: "The One Technologies.",
+    // image: "https://randomuser.me/api/portraits/women/4.jpg",
+  },
+  {
+    testimonial:
+      "I've encountered few developers as dedicated to their clients' success as Aditya, a true advocate for achieving excellence in web and app development.",
+    name: "Nirali Timbadiya",
+    designation: "SDE 1",
+    company: "The One Technologies.",
+    // image: "https://randomuser.me/api/portraits/women/6.jpg",
   },
   {
     testimonial:
       "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
-  },
-  {
-    testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
+    name: "Swapnil Panchal",
+    designation: "Project Manager",
+    company: "The One Technologies.",
+    // image: "https://randomuser.me/api/portraits/men/5.jpg",
   },
 ];
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "BRTS App",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Empowering commuters in Ahmedabad, my BRTS app streamlines city bus travel, providing real-time updates, route information, and seamless navigation for a convenient and efficient public transportation experience.",
     tags: [
       {
         name: "react",
@@ -211,54 +215,64 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "react-naitve",
         color: "pink-text-gradient",
       },
+      {
+        name: "redux",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "figma",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "nodejs",
+        color: "green-text-gradient",
+      },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: brts,
+    source_code_link: "https://github.com/A3939/React-Native-BRT-App",
   },
   {
-    name: "Job IT",
+    name: "Facility Rental",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Revolutionizing fitness scheduling, my cross-platform app simplifies the process of booking basketball and gym courts. Seamlessly accessible on various devices, it ensures users effortlessly reserve their preferred courts, enhancing the overall experience of sports enthusiasts and fitness enthusiasts alike.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "mongodb",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "react-naitve",
         color: "pink-text-gradient",
       },
+      {
+        name: "nodejs",
+        color: "blue-text-gradient",
+      },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: facility,
   },
   {
-    name: "Trip Guide",
+    name: "Silvert Smart",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Experience enhanced peace of mind with my cutting-edge app, using smart shoe technology to monitor travel history and provide real-time location insights for your loved ones. Stay connected and informed about your child or grandparents effortlessly, right from your fingertips.",
     tags: [
       {
-        name: "nextjs",
+        name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
+        name: "react-naitve",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: silvert,
   },
 ];
 
